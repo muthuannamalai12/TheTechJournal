@@ -72,8 +72,3 @@ url = "https://www.linkedin.com/in/muthu-annamalai/"
 [[params.socialIcons]]
 name = "RSS"
 url = "/index.xml"
-
-[module]
-[module.hugoVersion]
-extended = true
-min = '0.111.0'
