@@ -1,0 +1,74 @@
+baseURL = 'https://muthuannamalai.tech/'
+languageCode = 'en-us'
+title = 'Tech Journal'
+theme = [ 'PaperMod' ]
+paginate = 5
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+googleAnalytics = "UA-123-45"
+
+[params]
+env = "production"
+ShowShareButtons = true
+ShowCodeCopyButtons = true
+ShowFullTextinRSS = true
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = true
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = true
+defaultTheme = "auto"
+enableEmoji = true
+
+[params.homeInfoParams]
+Title =  "Hello everyone \U0001F44B I am Muthu Annamalai"
+Content =  "A software developer documenting my learnings"
+
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 20
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 30
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/muthuannamalai_"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/muthuannamalai12"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/muthu-annamalai/"
+
+[[params.socialIcons]]
+name = "RSS"
+url = "/index.xml"
