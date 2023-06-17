@@ -6,6 +6,7 @@ cover:
   image: "images/Buy Me A Coffee.png"
   alt: "What is Buy Me A Coffee"
 tags: [creator-tools]
+showToc: false
 ---
 
 We are living in the era of globalization and only those who follow the path of innovation will survive. In modern years, many Digital Creators like Youtubers, Blog Writers, Ghost Writers have emerged. There are so many ways to monetize their content. For example, Youtube has a Patreon option where subscribers can donate money to the YouTubers. But there are very limited options for other content creators to get support from the audience.
